@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><questions>
+	<category>
+		<thumb name="Drag and Drop">assets/item_thumb_0.svg</thumb>
+		<thumb name="IQ Questions (Audio)">assets/item_thumb_1.svg</thumb>
+		<thumb name="Math Questions">assets/item_thumb_2.svg</thumb>
+		<thumb name="Math Puzzles (Audio)">assets/item_thumb_5.svg</thumb>
+		<thumb name="Multiple Choices">assets/item_thumb_6.svg</thumb>
+		<thumb name="Video">assets/item_thumb_4.svg</thumb>
+		<thumb name="All">assets/item_thumb_3.svg</thumb>
+	</category>
+	
+	<item>
+		<category>Drag and Drop</category>
+		<landscape>
+			<question type="image" align="center" audio="assets/questions/sounds/Q1.mp3" width="16" height="16" left="32" top="20">assets/questions/images/Q1.png</question>
+			<answers correctAnswer="" drag="true">
+				<answer top="53" left="14" width="16" type="image" align="center" audio="assets/questions/sounds/A1.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/A1.png</answer>
+				<answer top="53" left="32" width="16" type="image" align="center" audio="assets/questions/sounds/A2.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/A2.png</answer>
+				<answer top="53" left="50" width="16" type="image" align="center" audio="assets/questions/sounds/A3.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A3.png</answer>
+				<answer top="53" left="68" width="16" type="image" align="center" audio="assets/questions/sounds/A4.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A4.png</answer>
+				<answer top="88" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="1" dropMax="1" dropTop="20" dropLeft="50" dropOffTop="1" dropOffLeft=".8" dropWidth="16" dropHeight="29" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</landscape>
+		
+		<portrait>
+			<question type="image" align="center" audio="assets/questions/sounds/Q1.mp3" width="40" height="16" left="9" top="10">assets/questions/images/Q1.png</question>
+			<answers correctAnswer="" drag="true">
+				<answer top="40" left="19" width="30" type="image" align="center" audio="assets/questions/sounds/A1.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/A1.png</answer>
+				<answer top="40" left="52" width="30" type="image" align="center" audio="assets/questions/sounds/A2.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/A2.png</answer>
+				<answer top="61" left="19" width="30" type="image" align="center" audio="assets/questions/sounds/A3.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A3.png</answer>
+				<answer top="61" left="52" width="30" type="image" align="center" audio="assets/questions/sounds/A4.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A4.png</answer>
+				<answer top="84" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="1" dropMax="1" dropTop="10" dropLeft="51" dropOffTop="1" dropOffLeft=".8" dropWidth="40" dropHeight="25" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Drag and Drop</category>
+		<landscape>
+			<question type="image" align="center" audio="assets/questions/sounds/questionFileName.mp3" width="16" height="16" left="32" top="20">assets/questions/images/questionFileName.png</question>
+			<answers correctAnswer="" drag="true">
+				<answer top="53" left="14" width="16" type="image" align="center" audio="assets/questions/sounds/option1.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/option1.png</answer>
+				<answer top="53" left="32" width="16" type="image" align="center" audio="assets/questions/sounds/option2.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/option2.png</answer>
+				<answer top="53" left="50" width="16" type="image" align="center" audio="assets/questions/sounds/option3.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/option3.png</answer>
+				<answer top="53" left="68" width="16" type="image" align="center" audio="assets/questions/sounds/option4.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/option4.png</answer>
+				<answer top="88" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="1" dropMax="1" dropTop="20" dropLeft="50" dropOffTop="1" dropOffLeft=".8" dropWidth="16" dropHeight="29" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</landscape>
+		
+		<portrait>
+			<question type="image" align="center" audio="assets/questions/sounds/questionFileName.mp3" width="40" height="16" left="9" top="10">assets/questions/images/questionFileName.png</question>
+			<answers correctAnswer="" drag="true">
+				<answer top="40" left="19" width="30" type="image" align="center" audio="assets/questions/sounds/option1.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/option1.png</answer>
+				<answer top="40" left="52" width="30" type="image" align="center" audio="assets/questions/sounds/option2.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/option2.png</answer>
+				<answer top="61" left="19" width="30" type="image" align="center" audio="assets/questions/sounds/option3.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/option3.png</answer>
+				<answer top="61" left="52" width="30" type="image" align="center" audio="assets/questions/sounds/option4.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/option4.png</answer>
+				<answer top="84" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="1" dropMax="1" dropTop="10" dropLeft="51" dropOffTop="1" dropOffLeft=".8" dropWidth="40" dropHeight="25" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</portrait>
+	</item>
+</questions>
