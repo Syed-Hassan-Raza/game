@@ -68,8 +68,8 @@ var answerAnimationEnable = true; //enable answer animation
 
 var answerButtonBgEnable = true; //toggle answer button background
 var answerButtonBgRoundNumber = 15; //answer button background round corner number
-var answerButtonBgColour = '#a2cd4a'; //answer button background colour
-var answerButtonBgShadowColour = '#6fad4e'; //answer button background shadow colour
+var answerButtonBgColour = '#2353AA'; //answer button background colour
+var answerButtonBgShadowColour = '#003CFF'; //answer button background shadow colour
 var answeredButtonBgColour = '#f89a31'; //answered button background colour
 var answeredButtonBgShadowColour = '#dc4832'; //answered button background shadow colour
 var wrongButtonBgColour = '#989898'; //answered button background colour
@@ -1060,7 +1060,7 @@ function buildAnswers(){
 				$('#answer'+n).append(backgroundHTML);
 			}
 			
-			var answerHTML = '<div id="text'+n+'" class="fontAnswer resizeFont" data-fontSize="'+value.fontSize+'" data-lineHeight="'+value.lineHeight+'" style="position:relative; font-size:'+value.fontSize+'px; line-height:'+value.lineHeight+'px; color:'+value.color+';  text-align:'+value.align+';">'+curAnswerList+value.text+'</div>';
+			var answerHTML = '<div id="text'+n+'" class="fontAnswer resizeFont" data-fontSize="'+value.fontSize+'" data-lineHeight="'+value.lineHeight+'" style="position:relative;font-family:Orbitron, sans-serif; font-size:'+value.fontSize+'px; line-height:'+value.lineHeight+'px; color:'+value.color+';  text-align:'+value.align+';">'+curAnswerList+value.text+'</div>';
 			$('#answer'+n).append(answerHTML);
 			
 			var clickHTML = "<div class='buttonClick resizeBorder' data-border='"+answerButtonBgRoundNumber+"' style='position:absolute; border-radius: "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px; -moz-border-radius: "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px; -webkit-border-radius: "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px "+answerButtonBgRoundNumber+"px; width:100%; height:100%; position:absolute; top:"+value.offsetTop+"%;'></div>";

@@ -18,7 +18,7 @@
 				<answer top="53" left="32" width="15" type="image" align="center" audio="assets/questions/sounds/A4.mp3" dropLabelType="text" dropLabelAlign="center">assets/questions/images/A4.png</answer>
 				<answer top="53" left="50" width="15" type="image" align="center" audio="assets/questions/sounds/A2.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A2.png</answer>
 				<answer top="53" left="68" width="15" type="image" align="center" audio="assets/questions/sounds/A12.mp3" dropLabelType="text" dropLabelAlign="right">assets/questions/images/A12.png</answer>
-				<answer top="88" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer>
+				<answer top="88" left="32" width="34" height="10" type="text" align="center" submit="true" dropLabelType="text" dropLabelAlign="center">sdfd</answer>
 			</answers>
 			<groups>
 				<group correctAnswer="1" dropMax="1" dropTop="20" dropLeft="50" dropOffTop="1" dropOffLeft=".8" dropWidth="16" dropHeight="29" type="text" align="center"><![CDATA[]]></group>

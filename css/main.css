@@ -18,7 +18,7 @@ font-family: 'Orbitron', sans-serif;
 
  .containerImage{
 	 width: 100%;height: 100%;
-	background-color: transparent; background-image: url('../assets/images/—Pngtree—dark\ blue\ gradient\ technology\ background_942345.jpg');
+	background-color: transparent; background-image: url('../assets/images/GTA-MnDnD-logoToppage-background.jpg');
 	background-color: #cccccc; /* Used if the image is unavailable */
 background-position: center; /* Center the image */
 background-repeat: no-repeat;
@@ -170,7 +170,7 @@ box-sizing: border-box;         /* Opera/IE 8+ */}
 #groupHolder .groupDrop, #groupHolder .groupDropLabel{ position:absolute; width:100%; white-space: pre-line;}
 
 #questionResultHolder{ position:relative; width:100%; height:100%;}
-.questionResultText, .nextImg, .previewImg{ position:absolute;}
+.questionResultText, .nextImg, .previewImg{ position:absolute;font-family: 'Orbitron', sans-serif}
 #questionResultHolder .nextImg{ top:65%; width:6%; left:52%;}
 #questionResultHolder .previewImg{ top:65%; width:6%; left:44%;}
 #explanationHolder{ position:absolute; width:100%; height:100%;}
@@ -210,20 +210,20 @@ ul.scoreList li:nth-child(odd) {
 .buttonCancelSubmit{ float:right; width:48%;}
 
 
-.fontStatus{font-family:'Raleway'; font-size:30px; line-height:30px; color:#fff;}
-.fontQuestion{ font-family:'Raleway';}
-.fontAnswer{ font-family:'Raleway';}
-.fontInput{ font-family:'Raleway';}
-.fontCorrectWrong{ font-family:'Raleway';}
-.fontResultScore{font-family:'Raleway';}
-.fontShare{font-family:'Raleway';}
-.fontCategory{font-family:'Raleway';}
-.fontMessage{font-family:'Raleway';}
-.fontPreload{font-family:'Raleway';}
-.fontScoreTitle{font-family:'Raleway';}
-.fontScoreList{font-family:'Raleway';}
-.fontLabel{font-family:'Raleway';}
-.fontInput{font-family:'Raleway';}
+.fontStatus{font-family:'Orbitron, sans-serif'; font-size:30px; line-height:30px; color:#fff;}
+.fontQuestion{ font-family:'Orbitron, sans-serif';}
+.fontAnswer{ font-family:'Orbitron, sans-serif';}
+.fontInput{ font-family:'Orbitron, sans-serif';}
+.fontCorrectWrong{ font-family:'Orbitron, sans-serif';}
+.fontResultScore{font-family:'Orbitron, sans-serif';}
+.fontShare{font-family:'Orbitron, sans-serif';}
+.fontCategory{font-family:'Orbitron, sans-serif';}
+.fontMessage{font-family:'Orbitron, sans-serif';}
+.fontPreload{font-family:'Orbitron, sans-serif';}
+.fontScoreTitle{font-family:'Orbitron, sans-serif';}
+.fontScoreList{font-family:'Orbitron, sans-serif';}
+.fontLabel{font-family:'Orbitron, sans-serif';}
+.fontInput{font-family:'Orbitron, sans-serif';}
 
 /*-- Form Wrapper -- */
 #editWrapper{ display:none;}
